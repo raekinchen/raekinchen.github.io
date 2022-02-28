@@ -1969,7 +1969,7 @@ i {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  max-width: 550px;
+  /* max-width: 550px; */
 }
 
 .project-right {
