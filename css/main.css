@@ -2544,21 +2544,27 @@ footer ul li {
     border-radius: 0;
     width: 100%;
     object-fit: cover;
-    height: 50%;
+    height: 100%;
   }
   .project-card-small {
     /* justify-content: stretch; */
     height: auto;
     /*SETTING THE WIDTH FIXES THE HUGE CARD PROBLEM WITH FLEX WRAP ON*/
     /* max-width: 300px; */
-    display: flex;
+    /* display: flex;
     gap: 0;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: stretch;
-    justify-content: space-between;
+    justify-content: space-between; */
     background: var(--light-5p);
     border-radius: var(--bevel-12);
+  }
+
+  .project-card-small {
+    display: grid;
+    gap: 0;
+    grid-template-rows: 1fr 1fr;
     overflow: hidden;
   }
 
