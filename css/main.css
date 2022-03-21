@@ -239,6 +239,10 @@ h1 {
   max-width: 500px;
 }
 
+#hero .subtitle {
+  max-width: 500px;
+}
+
 h2 {
   line-height: 130%;
   font-weight: var(--fw-600);
