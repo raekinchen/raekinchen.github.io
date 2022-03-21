@@ -1264,10 +1264,11 @@ figcaption.caption {
   margin: 1rem 0;
 }
 
-figcaption.title {
+.title {
   border-radius: var(--bevel-5);
   margin: 1rem 0;
   font-size: var(--fs-sm);
+  font-weight: var(--fw-600);
 }
 
 .split {
