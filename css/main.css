@@ -252,6 +252,10 @@ h2 {
   text-transform: capitalize;
 }
 
+.hero-subtitle {
+  font-weight: var(--fw-400)
+}
+
 p {
   line-height: 200%;
   font-weight: var(----fw-400);
