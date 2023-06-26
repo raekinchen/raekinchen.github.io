@@ -514,7 +514,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  padding: 0.3rem 1rem;
+  padding: 0.2rem 1rem;
   margin: 0;
   position: fixed;
   z-index: 999;
@@ -607,6 +607,7 @@ header {
 
   header {
     padding:  0.7rem  4rem;
+    
   }
 
   nav {
@@ -1675,7 +1676,8 @@ footer ul li {
   }
 
   header {
-    padding:  0.7rem  2rem;
+    padding:  0.2rem  2rem; 
+    
   }
 
   .skills {
@@ -1770,7 +1772,7 @@ footer ul li {
 
 @media (min-width: 940px) {
   header {
-    padding: 0.7rem 4rem;
+    padding: 0.4rem 4rem; 
   }
   .gallery {
     display: grid;
