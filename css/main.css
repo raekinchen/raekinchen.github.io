@@ -89,7 +89,7 @@ button {
   --fs-l: clamp(1.8rem, 3vw, 2.3rem); /*h2*/
   --fs-m: 1.3rem; /*h3*/
   --fs-sm: 1.2rem; /*h4*/
-  --fs-s: 1rem; /*p*/
+  --fs-s: 0.8rem; /*p*/ 
   --fs-xs: 0.8rem; /*small text*/
 
   ----fw-400: 400;
