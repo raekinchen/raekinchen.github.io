@@ -535,7 +535,7 @@ header {
 }
 
 .nav-logo {
-  width: 20rem;
+  width: 18rem; 
 }
 
 .nav-items {
@@ -700,6 +700,10 @@ header {
   stroke-width: 40px;
   stroke-opacity: 0;
   fill: black;
+}
+
+svg.hamburger-menu {
+  width: 1.9rem;
 }
 
 #hamburger {
