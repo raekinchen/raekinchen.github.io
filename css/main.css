@@ -1717,6 +1717,18 @@ footer ul li {
 
 /* MEDIA QUERIES  */
 
+@media (max-width: 500px) {
+ blockquote {
+  padding: 2rem;
+ }
+}
+
+@media (max-width: 450px) {
+  blockquote {
+   padding: 1rem;
+  }
+ }
+
 @media (min-width: 670px) {
   /* GLOBAL STYLES */
 
